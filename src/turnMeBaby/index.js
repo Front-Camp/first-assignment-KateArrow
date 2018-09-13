@@ -8,7 +8,18 @@
  * turnMeBaby('Some text'); // 'txet emoS'
  */
 const turnMeBaby = str => {
-  /* your logic here...*/
+	let result=[];
+    let i=str.length
+  
+  while(i){
+		result.push(str[i])
+		i--;
+  }
+
+	return result.join('');
+
 };
 
 export default turnMeBaby;
+
+

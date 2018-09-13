@@ -7,7 +7,8 @@
 * max([-1, 0]);   // 0
 */
 const max = arr => {
-  /* your logic here...*/
+ 
+ return arr.reduce(function (p, item) { return ( p > item ? p : item )}); 
 };
 
 export default max;
